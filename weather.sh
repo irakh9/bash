@@ -14,6 +14,6 @@ while true; do
              echo "Paris is sunshine"
          else
             echo "Прогноз погоды не ясен... Зайдиет плиз.."
-fi
+    fi
 done
 echo "See you soon..."
