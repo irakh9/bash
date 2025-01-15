@@ -7,11 +7,11 @@ while true; do
     if [ $city = 'tashkent ' ]; then
              echo "Tashkent is sunshine"
         elif [ $city = 'London ' ]; then
-             echo "Lonodon is sunshine"
+             echo "Lonodon is raining"
         elif [ $city = 'Moscow ' ]; then
-             echo "Moscow is sunshine"
+             echo "Moscow is snowing"
         elif [ $city = 'Paris' ]; then
-             echo "Paris is sunshine"
+             echo "Paris is smoke"
          else
             echo "Прогноз погоды не ясен... Зайдиет плиз.."
     fi
