@@ -15,5 +15,5 @@ while true; do
          else
             echo "Прогноз погоды не ясен... Зайдиет плиз.."
 fi
-do
+done
 echo "See you soon..."
