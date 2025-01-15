@@ -3,7 +3,7 @@ while true; do
     echo -n "Please type your city: "
     read city
     [ ! $city ] && break
-    city= ` echo $city |tr '[:upper]' '[:lower]'`
+    city=` echo $city |tr '[:upper]' '[:lower]'`
     if [ $city = 'tashkent ' ]; then
              echo "Tashkent is sunshine"
         elif [ $city = 'London ' ]; then
